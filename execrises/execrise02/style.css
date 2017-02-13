@@ -14,7 +14,9 @@ li {
 }
 .cakes{
   display: block;
-  margin-left: 14%;
-  margin-right: 0;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: auto;
+  margin-bottom: auto;
 
 }
