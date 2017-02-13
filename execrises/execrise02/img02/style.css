@@ -1,0 +1,20 @@
+body{
+  background-image:url(Background.jpg);
+  background-repeat: no-repeat;
+}
+.HorizontalList{
+   list-style: none outside none;
+   margin:0;
+   padding-left: 0;
+   text-align: center;
+}
+li {
+  margin: 0 10px;
+  display: inline;
+}
+.cakes{
+  display: block;
+  margin-left: 14%;
+  margin-right: 0;
+
+}
