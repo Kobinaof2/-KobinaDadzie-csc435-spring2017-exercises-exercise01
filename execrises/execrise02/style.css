@@ -1,6 +1,14 @@
-body{
-  background color: coral;
-  width: auto;
+.IndexBody{
+  background-image: url(./img02/Background.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+
+
+.MenuList{
+  background-color: tomato;
 
 }
 .HorizontalList{
