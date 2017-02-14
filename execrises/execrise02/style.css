@@ -1,11 +1,13 @@
-.IndexBody{
+body{
   background-image: url(./img02/Background.jpg);
-  background-size: contain;
+  background-size: 100%,100%;
   background-repeat: no-repeat;
 
 }
 
+header{
 
+}
 
 .MenuList{
   background-color: tomato;
