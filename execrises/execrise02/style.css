@@ -1,3 +1,8 @@
+@font-face {
+  font-family: myFirstFormat;
+  src: url(./img02/SimplyGlamorous.woff);
+
+}
 body{
   background-image: url(./img02/Background.jpg);
   background-size: 100%,100%;
@@ -5,8 +10,8 @@ body{
 
 }
 
-header{
-
+h1,.HorizontalList{
+  font-family: myFirstFormat;
 }
 
 .MenuList{
@@ -35,4 +40,7 @@ li {
   margin-bottom: auto;
   padding-left: 50px
 
+}
+.missionstatment{
+  
 }
