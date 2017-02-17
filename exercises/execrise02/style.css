@@ -26,7 +26,7 @@ h1,.HorizontalList{
    background-color: bisque;
    text-decoration: overline;
    text-decoration: underline;
-
+   font-weight: 900;
 }
 li {
   margin: 0 10px;
@@ -42,5 +42,8 @@ li {
 
 }
 .missionstatment{
+  text-align: right;
+  font-weight: bolder;
   
+
 }
