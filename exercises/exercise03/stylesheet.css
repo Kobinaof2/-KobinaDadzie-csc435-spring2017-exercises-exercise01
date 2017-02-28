@@ -1,0 +1,20 @@
+body{
+  background-color: red;
+  }
+@font-face {
+  font-family: Contactfont;
+  src: url(./img03/AguafinaScript-Regular.ttf);
+}
+h1{
+ font-family: Contactfont;
+
+}
+#PersonInfo{
+  color: yellow;
+
+}
+.personTitle{
+  font-family:fantasy;
+  color: black;
+
+}
