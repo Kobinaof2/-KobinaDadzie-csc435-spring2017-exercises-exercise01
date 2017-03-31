@@ -7,11 +7,12 @@ $(document).ready(function(){
     console.log(CreatureData);
 
 
-    //Get a creature  form the object created
+    //Get a creature  from the object created
     var creature = CreatureData.creatures
     for (var i = 0; i < creature.length; i++) {
       var CreatureDiv = $("<div/>");
-      CreatureDiv.append (creature[i])
+      CreatureDiv.append (creature[i]);
+      $("#CreatureEntry").append(CreatureDiv);
       console.log(creature[i]);
     }
 
