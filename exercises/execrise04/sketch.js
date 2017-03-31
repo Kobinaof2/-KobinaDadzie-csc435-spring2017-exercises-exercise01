@@ -3,8 +3,7 @@ var circleArray = [];
 var rectArray = [];
 
 function setup() {
-    resizeCanvas(600, 600);
-
+  createCanvas(windowWidth, windowHeight);
     for (var i = 0; i < 50; i++) {
         var c = new circleParticle(random(0, width), random(0, height));
         var t = new rectparticle(random(0, width), random(0, height));
@@ -38,9 +37,9 @@ function draw() {
 
       this.gravity = 0.25;
 
-      this.r = random(0,255);
-      this.g = random(0,255);
-      this.b = random(0,255);
+      this.r = random(0,150);
+      this.g = random(0,150);
+      this.b = random(0,150);
 
       // The function updates the position, and draws the ellipse using p5
       this.drawTheCircleParticle = function() {
@@ -87,9 +86,9 @@ function draw() {
 
         this.gravity = -0.1;
 
-        this.r = random(0,255);
-        this.g = random(0,255);
-        this.b = random(0,255);
+        this.r = random(150,255);
+        this.g = random(150,255);
+        this.b = random(150,255);
 
         // The function updates the position, and draws the ellipse using p5
         this.drawTherectParticle = function() {
