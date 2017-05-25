@@ -1,0 +1,21 @@
+#CreatureDiv {
+  text-align: center;
+  /*for centering images inside*/
+}
+#CreatureEntry {
+ align-content: center;
+}
+
+img {
+  width: 300px;
+  /*set the width or max-width*/
+  height: auto;
+  /*this makes sure to maintain the aspect ratio*/
+}
+
+body {
+  background-color: rgb(38, 57, 132);
+}
+a {
+  color: rgb(255, 0, 0);
+}
